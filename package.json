@@ -1,15 +1,26 @@
 {
   "name": "eyes",
-  "private": true,
   "version": "0.0.0",
+  "private": true,
   "type": "module",
+  "author": {
+    "name": "Jan Molak",
+    "email": "jan.molak@smartcodeltd.co.uk",
+    "url": "https://janmolak.com"
+  },
   "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview"
+    "build": "tsc",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@applitools/driver": "1.19.2",
+    "@applitools/eyes": "1.23.2",
+    "@applitools/eyes-playwright": "1.29.3",
+    "@applitools/eyes-webdriverio": "5.54.9"
   },
   "devDependencies": {
-    "typescript": "^5.5.3",
-    "vite": "^5.4.8"
+    "tsd": "^0.31.2",
+    "typescript": "5.5.3",
+    "vitest": "2.1.2"
   }
 }

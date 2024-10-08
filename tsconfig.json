@@ -5,14 +5,12 @@
     "declarationMap": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
-    "include": [
-      "src"
-    ],
     "lib": [
       "es2022"
     ],
     "module": "CommonJS",
     "moduleResolution": "node",
+    "noEmit": true,
     "noEmitOnError": false,
     "noFallthroughCasesInSwitch": true,
     "noImplicitOverride": false,
@@ -21,7 +19,7 @@
     "noUnusedParameters": true,
     "pretty": true,
     "removeComments": false,
-    "skipLibCheck": false,
+    "skipLibCheck": true,
     "sourceMap": true,
     "strict": true,
     "target": "es2022",
@@ -29,5 +27,8 @@
       "node"
     ],
     "useDefineForClassFields": true
-  }
+  },
+  "include": [
+    "src"
+  ]
 }

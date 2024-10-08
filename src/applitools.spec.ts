@@ -1,4 +1,4 @@
-import { expect, describe, it } from 'vitest'
+import { describe, it } from 'vitest'
 
 import * as EyesSdk from '@applitools/eyes'
 import * as EyesPlaywrightSdk from '@applitools/eyes-playwright'
